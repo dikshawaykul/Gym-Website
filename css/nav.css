@@ -1,0 +1,33 @@
+*{
+    margin:0%;
+    padding:0;
+}
+.navbar{
+    background-color: black;
+    padding: 20px 50px ;
+    border-radius: 25px;
+ margin-right: 15px;
+ margin-left: 15px;
+}
+
+input{
+    float: right;
+    border-radius: 14px;
+    padding: 5px 5px 1px 2x ;
+    margin-bottom: 50%;
+    box-sizing: border-box;
+    
+   
+}
+li{
+    text-decoration: none;
+display: flex;
+display: inline;
+/* background-color: aqua; */
+padding: 15px;
+border-radius: 20px;
+margin: 15px;
+color: aliceblue;
+
+font-weight: bold;
+}

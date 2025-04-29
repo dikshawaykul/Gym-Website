@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Example</title>
+    <link rel="stylesheet" href="form.css"/>
+    <script type="text/javascript" src="function.js">
+
+    </script>
+    <style  type="text/css">
+h1{
+    border: 1px solid;
+}
+
+    </style>
+
+</head>
+<body>
+    <a href="https://www.amazon.in/ref=nav_logo" target="_blank">
+<img src="../amazon.png" alt="" >
+
+         </a>
+    <h1>Form</h1>
+
+    <form action="submit.html" method="get" target="_blank">
+        <fieldset>
+            <legend>Registration Form</legend>
+    <label>First Name: </label>
+    <input type="text" name="First name" value="Enter your first name" required><br><br>
+
+    <label>Last Name: </label>
+    <input type="text" name="Last name"required ><br><br>
+
+    <label>User Name: </label>
+    <input type="text" name="User name"><br><br>
+
+    <label>Password: </label>
+    <input type="password" name="password"><br><br>
+
+    <label>Email:  </label>
+    <input type="email" name="email"><br><br>
+
+    <label>Gender</label>
+    <input type="radio" name="Gender" value="Male">Male
+    <input type="radio" name="Gender" value="Female">Female
+    <input type="radio" name="Gender" value="other">Other
+<br><br>
+<label>Sports: </label>
+<input type="checkbox" name="Sportscricket" value="cricket">Cricket
+<input type="checkbox" name="SportsVolleyball" value="cricket">Volleyball
+<input type="checkbox" name="SportsFootball" value="cricket">Football
+<br><br>
+<label> Address:</label>
+<textarea></textarea>
+<br><br>
+<input type="submit" value="submit" onclick="msg()">
+
+</fieldset>
+</form>
+
+</body>
+</html>
